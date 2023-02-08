@@ -8,4 +8,6 @@ https://getcomposer.org/
 
 Clonar o repositório e digitar o comando composer install
 
+Alterar o nome do arquivo .env.example para .env
+
 Mudar as variáveis de ambiente e rodar o script
