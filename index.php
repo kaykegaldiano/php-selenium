@@ -43,8 +43,9 @@ $driver->findElement(WebDriverBy::id('clientes_pftelefone_cel'))->sendKeys($_ENV
 // clica no input de e-mail e escreve
 $driver->findElement(WebDriverBy::id('clientes_pfemail'))->sendKeys($_ENV['EMAIL']);
 // scrolla a página para baixo
-$driver->executeScript('scroll(0, 250)');
+$driver->executeScript('scroll(0, 350)');
 // clica no primeiro checkbox
+sleep(1);
 $driver->findElement(WebDriverBy::id('flexCheckChecked'))->click();
 // clica no segundo checkbox
 $driver->findElement(WebDriverBy::id('flexCheck2'))->click();
